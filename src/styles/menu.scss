@@ -41,7 +41,7 @@
       width: 100%;
       background-color: rgba(32, 96, 246, 1);
 
-      transition: all $timeAnimation;
+      transition: all $time-animation;
       transform: scale(0);
       transform-origin: left;
     }
@@ -76,7 +76,7 @@
     line-height: 27px;
     padding-bottom: 8px;
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     &:last-child {
       padding-bottom: 16px;
@@ -111,7 +111,7 @@
       height: 1px;
       background-color: rgba(32, 96, 246, 1);
 
-      transition: all $timeAnimation;
+      transition: all $time-animation;
       transform: scale(0);
       transform-origin: left;
     }
@@ -126,7 +126,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  transition: all $timeAnimation;
+  transition: all $time-animation;
 
   &:hover {
     transform: scale(1.2);

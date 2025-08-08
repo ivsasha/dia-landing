@@ -23,7 +23,7 @@
   top: 0;
   left: 0;
   right: 0;
-  transition: all $timeAnimation;
+  transition: all $time-animation;
   transform: translate(-100%);
 
   &:target {

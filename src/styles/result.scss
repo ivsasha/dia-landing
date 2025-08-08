@@ -75,7 +75,7 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     @include on-tablet {
       width: 264px;

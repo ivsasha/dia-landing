@@ -83,7 +83,7 @@
     line-height: 22.5px;
     color: rgba(255, 255, 255, 1);
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     &:focus {
       outline: none;
@@ -102,7 +102,7 @@
     line-height: 22.5px;
     color: rgba(255, 255, 255, 1);
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     &:focus {
       outline: none;
@@ -121,7 +121,7 @@
     line-height: 22.5px;
     color: rgba(255, 255, 255, 1);
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     &:focus {
       outline: none;
@@ -144,7 +144,7 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     @include on-tablet {
       width: 264px;
@@ -203,7 +203,7 @@
     margin-bottom: 40px;
     text-decoration: none;
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
 
     @include on-tablet {
@@ -230,7 +230,7 @@
     justify-content: center;
     color: white;
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     &:hover {
       color: rgba(32, 96, 246, 1);
@@ -254,7 +254,7 @@
     height: 28px;
     padding-bottom: 48px;
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
 
     @include on-tablet {
@@ -299,7 +299,7 @@
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 
-    transition: all $timeAnimation;
+    transition: all $time-animation;
 
     &::after {
       content: '';
@@ -312,7 +312,7 @@
       background-color: rgba(32, 96, 246, 1);
       border-radius: 4px;
 
-      transition: all $timeAnimation;
+      transition: all $time-animation;
       transform: scale(0);
       transform-origin: left;
     }
